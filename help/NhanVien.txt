@@ -1,0 +1,44 @@
+1. Sau khi chạy chương trình lên, hệ thống sẽ hiển thị ra giao diện dùng để đăng nhập:
+   - Nhân viên sẽ điền các thông tin như: tên đăng nhập (mã nhân viên) và mật khẩu đã đăng ký.
+   - Nhấn nút đăng nhập.
+   - Trong trường hợp tài khoản không hợp lệ thì hệ thống sẽ đưa ra thông báo và sẽ nhập lại. Nếu    đăng nhập thành công hệ thống sẽ chuyển qua màn hình Bán Hàng.
+
+2. Chức năng bán hàng.
+   
+   2.1 Chức năng lập hóa đơn
+      - Nhập thông tin khách hàng:
+         + Nếu là khách hàng cũ thì sẽ nhập số điện thoại của khách vào và nhấn nút tìm. Hệ thống sẽ tự đồng điền các thông tin của khách hàng nếu đã từng mua hàng.
+         + Nếu là khách hàng mới sẽ nhập thông tin của khách hàng vào.
+      - Tìm kiếm và chọn các sản phẩm mà khách hàng đã chọn mua. Hệ thống sẽ hiển thị ra các mã sản phẩm và Nhân viên sẽ tìm kiếm sản phẩm thích hợp và nhấn nút thêm. Sản phẩm sẽ được thêm vào danh sách sản phẩm đã chọn mua trong một bảng.
+      - Trong bảng danh sách các sản phẩm đã mua sẽ có thành tiền cho từng sản phẩm đã mua và có cả tổng tiền mà khách hàng cần phải thanh toán.
+      - Nhân Viên sẽ nhấn nút lập hóa đơn, hệ thống sẽ hiển thị ra giao diện của hóa đơn bao gồm tất cả thông tin cần thiết (Mã hóa đơn, Ngày lập, Tổng tiền hóa đơn, Danh sách chi tiết các sản phẩm, ….). Sẽ có một nút thoát để nhân viên có thể quay lại.
+   
+   2.2 Chức năng tìm kiếm hóa đơn (theo mã).
+      - Nhân Viên sẽ nhập vào mã của hóa đơn cần tìm kiếm.
+      - Hệ thống sẽ tìm kiếm hóa đơn và chuyển qua màn hình chi tiết hóa đơn bao gồm tất cả thông tin cần thiết (Mã hóa đơn, Ngày lập, Tổng tiền hóa đơn, Danh sách chi tiết các sản phẩm, ….). Sẽ có một nút thoát để nhân viên có thể quay lại.
+      - Trong trường hợp không tìm thấy sẽ thông báo cho người dùng.
+   
+   2.3 Chức năng xóa sản phẩm trong danh sách sản phẩm đã chọn mua
+      - Nhân viên sẽ chọn sản phẩm cần xóa trên bảng danh sách sản phẩm đã chọn
+      - Nhân viên sẽ nhấn nút xóa sản phẩm. Sản phẩm sẽ được xóa ra khỏi bảng.
+   
+   2.4 Chức năng quản lý khách hàng.
+      - Trong giao diện quản lý bán hàng sẽ hiển thị ra danh sách và thông tin chi tiết của tất cả khách hàng.
+      - Ngoài ra còn các chức năng cho để hỗ trợ như: Tìm kiếm khách hàng theo từng tiêu chí phù hợp, Cập nhật thông tin khách hàng, xóa khách hàng.
+      
+      2.4.1 Chức năng tìm kiếm thông tin khách hàng.
+         - Nhập vào thông tin cần tìm
+         - Chọn các tiêu chí cần tìm theo nhu cầu bao gồm (theo mã khách hàng, tên khách hàng, số điện thoại)
+         - Nhấn nút tìm kiếm. Sau đó hệ thống sẽ hiển thị ra thông tin của khách hàng cần tìm.
+      
+      2.4.2 Chức năng cập nhật thông tin khách hàng
+         - Chọn khách hàng cần sửa thông tin nằm trên bảng danh sách thông tin khách hàng
+         - Chỉnh sửa những thông tin trực tiếp trên bảng, sau đó nhấn cập nhật.
+      
+      2.4.3 Chức năng  xóa thông tin khách hàng
+         - Chọn khách hàng cần xóa thông tin nằm trên bảng danh sách thông tin khách hàng
+         - Nhấn nút xóa ở phần chức năng.
+      
+      2.4.4 Chức năng  kết xuất thông tin khách hàng
+         - Chọn nút kết xuất ở phần chức năng.
+         - Hệ thống sẽ tự động xuất ra một file json với những thông tin của các khách hàng.
