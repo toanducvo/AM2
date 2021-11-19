@@ -22,7 +22,7 @@ public class AutoID {
         return id;
     }
 
-    public static void setId(String lastItem) {
+    private static void setId(String lastItem) {
         int inc = parseId(lastItem) + increment;
         String newId = parseString(inc);
         id = prefix + "0".repeat(idLength - newId.length()) + newId;
