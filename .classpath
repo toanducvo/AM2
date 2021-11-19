@@ -23,11 +23,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/HOAN HUU/Desktop/clothing-fashion-management-java-swing/lib/jcalendar-1.4.jar"/>
-	<classpathentry kind="lib" path="C:/Users/HOAN HUU/Desktop/clothing-fashion-management-java-swing/lib/jgoodies-common-1.2.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/HOAN HUU/Desktop/clothing-fashion-management-java-swing/lib/jgoodies-looks-2.4.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/HOAN HUU/Desktop/clothing-fashion-management-java-swing/lib/junit-4.6.jar"/>
-	<classpathentry kind="lib" path="C:/Users/HOAN HUU/Desktop/clothing-fashion-management-java-swing/lib/swingx-all-1.6.4.jar"/>
 	<classpathentry kind="lib" path="lib/jcalendar-1.4.jar"/>
 	<classpathentry kind="lib" path="lib/jgoodies-common-1.2.0.jar"/>
 	<classpathentry kind="lib" path="lib/jgoodies-looks-2.4.1.jar"/>
